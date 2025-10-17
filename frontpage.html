@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+
+        background-color: black;
+        box-shadow: 5px 5px 20px rgb(0, 0, 0, .5);
+        padding: .2rem 2rem;
+    }
+
+
+    nav ul li {
+        display: inline;
+
+
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 18px;
+
+    }
+
+    section {
+        color: white;
+        text-align: center;
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #home {
+        background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .8)), url(cinema-background-concept-vector.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+    }
+
+    #home h1 {
+        font-weight: 500;
+        font-size: 90px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 0px white,
+            0px 2px 0px white,
+            0px 3px 0px white,
+            0px 4px 0px white,
+            0px 5px 0px white,
+            0px 6px 0px white,
+            0px 7px 0px white
+    }
+
+    #home p {
+        font-size: 20px;
+    }
+
+    img {
+        width: 415px;
+        height: 450px;
+    }
+
+    #tamilmovies {
+        background-color: gray;
+        gap: 100px;
+    }
+
+    div {
+        box-shadow: 15px 20px 20px rgba(0, 0, 0, .3), inset 4px 4px 10px white;
+        padding-bottom: 30px;
+        border-radius: 10px;
+
+    }
+
+    div button a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+</style>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#" style="padding-right:600px; font-weight: 800; color: green; font-size: 30px;">paytm</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#tamilmovies">Tamil Movies</a></li>
+            <li><a href="#"><button
+                        style="background-color: green;font-size: 18px; border: none; color: white; padding: 10px; border-radius: 10px;">Sign
+                        in</button></a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>TAMIL MOVIES </h1>
+        <P>Tamil cinema is the segment of Indian cinema dedicated to the production of motion pictures in the Tamil
+            language</P>
+
+    </section>
+
+
+    <section id="tamilmovies">
+
+
+
+        <div class="img1">
+            <img src="karikalan.jpg" alt=""><br>
+            <button
+                style="background-color: rgb(0, 102, 255);font-size: 18px; border: none; color: white; padding: 10px; border-radius: 10px;"><a
+                    href="ticket.html">Book Tickets</a></button>
+        </div>
+        <div class="img2">
+            <img src="kodiyil oruvan.jpg" alt=""><br>
+            <button
+                style="background-color: rgb(0, 102, 255);font-size: 18px; border: none; color: white; padding: 10px; border-radius: 10px;"><a
+                    href="ticket.html">Book Tickets</a></button>
+        </div>
+        <div class="img3">
+            <img src="thalaivanthalaivi.jpg" alt=""><br>
+            <button
+                style="background-color: rgb(0, 102, 255);font-size: 18px; border: none; color: white; padding: 10px; border-radius: 10px;"><a
+                    href="ticket.html">Book Tickets</a></button>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
